@@ -9,3 +9,7 @@ npm i rimraf --save-dev //instalar rimraf (utilidad para borrado de carpetas mul
 npm install express --save // instalar (para ejecucion el servidor express)
 npm i --save-dev @types/express //instalar los tipos como dependencias de desarrollo
 
+//Para compilar y lanzar el servidor, habiendo previamente configurado la sección 'scripts'
+// de package.json
+npm run build && npm run start
+
