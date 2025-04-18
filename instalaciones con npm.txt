@@ -1,5 +1,4 @@
-//Crear una carpeta de proyecto con nombre api, version 1.0 , nombre el nuestro, 
-//lo demás por defecto
+//Crear una carpeta de proyecto con nombre api, version 1.0 , nombre el nuestro, lo demás por defecto
 
 //Estando dentro de la carpeta api
 npm i typescript --save-dev  //para instalar typescript como dependencias de desarrollo
@@ -8,4 +7,8 @@ npm i rimraf --save-dev //instalar rimraf (utilidad para borrado de carpetas mul
         // como dependencias de desarrollo
 npm install express --save // instalar (para ejecucion el servidor express)
 npm i --save-dev @types/express //instalar los tipos como dependencias de desarrollo
+
+//Para compilar y lanzar el servidor, habiendo previamente configurado la sección 'scripts'
+// de package.json
+npm run build && npm run start
 
